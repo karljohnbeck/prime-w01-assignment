@@ -9,3 +9,46 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+body {
+  background-color: #97D8AC;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #09B3B0;
+  top: 0;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+h1 {
+  color: #000100;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border:5px solid black;
+  margin-top: 80px;
+
+}
+
+li {
+  font-family: monospace;
+}
+p {
+  font-style: italic;
+  color: lavender;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #09B3B0;
+  color: white;
+  text-align: center;
+}
